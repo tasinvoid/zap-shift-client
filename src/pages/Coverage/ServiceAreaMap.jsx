@@ -69,7 +69,7 @@ const ServiceAreaMap = () => {
           ca.toLowerCase().includes(normalizedSearchTerm)
         )
     );
-
+//cogit
     if (foundArea && foundArea.latitude && foundArea.longitude) {
       setMapTarget({
         coordinates: [foundArea.latitude, foundArea.longitude],
