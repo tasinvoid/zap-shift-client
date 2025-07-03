@@ -4,16 +4,21 @@ import ProFastLogo from "../ProFastLogo/ProFastLogo";
 const Footer = () => {
   return (
     <div>
-      <footer className="footer footer-horizontal footer-center bg-neutral text-neutral-content p-10">
-        <aside>
-          <ProFastLogo></ProFastLogo>
+      <footer className="footer footer-horizontal footer-center bg-neutral text-neutral-content p-10 flex justify-around">
+        <aside className="">
+          <div>
+            {" "}
+            <ProFastLogo></ProFastLogo>
+          </div>
 
-          <p className="font-bold">
-            ACME Industries Ltd.
-            <br />
-            Providing reliable tech since 1992
-          </p>
-          <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
+          <div>
+            <p className="font-bold">
+              ACME Industries Ltd.
+              <br />
+              Providing reliable tech since 1992
+            </p>
+            <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
+          </div>
         </aside>
         <nav>
           <div className="grid grid-flow-col gap-4">

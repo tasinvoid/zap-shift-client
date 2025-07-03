@@ -1,9 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
 @import "tailwindcss";
 @plugin "daisyui";
-@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+@import 'leaflet/dist/leaflet.css';
+
 .font-urbanist {
   font-family: "Urbanist", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+}
+/* .swiper {
+  width: 100%;
+  height: 80px;
+} */
+
+.swiper {
+  width: 80%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  
+  
+}
+
+
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 250px;
+}
+.mySwiper .swiper-slide-next,
+.mySwiper .swiper-slide-prev {
+  opacity: 0.5; /* Make side slides less prominent */
+  transform: scale(0.8); /* Scale down side slides slightly */
+}
+.mySwiper .swiper-slide-active {
+  transform: scale(1.1) translateY(-10px) !important;
+  opacity: 1;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+ 
 }

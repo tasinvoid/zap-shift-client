@@ -1,21 +1,35 @@
 import React from "react";
 import { NavLink } from "react-router";
 import ProFastLogo from "../ProFastLogo/ProFastLogo";
+import useAuth from "../../../hooks/useAuth";
 
 const Navbar = () => {
+  const { logOut } = useAuth();
+  const handleLogout = () => {
+    logOut().then(console.log('su'));
+  };
   const links = (
     <>
       {" "}
-      <li>
+      <li className="text-xl font-semibold">
         <NavLink to={"/"}>Home</NavLink>
       </li>
-      <li>
+      <li className="text-xl font-semibold">
         <NavLink to={"aboutUs"}>About Us</NavLink>
+      </li>
+      <li className="text-xl font-semibold">
+        <NavLink to={"/auth/login"}>Login</NavLink>
+      </li>
+      <li className="text-xl font-semibold">
+        <NavLink to={"/auth/register"}>Register</NavLink>
+      </li>
+      <li className="text-xl font-semibold">
+        <NavLink to={"/coverage"}>Coverage</NavLink>
       </li>
     </>
   );
   return (
-    <div>
+    <div className="mb-5">
       <div className="navbar bg-base-100 shadow-sm">
         <div className="navbar-start">
           <div className="dropdown">
@@ -38,7 +52,7 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow "
             >
               {links}
             </ul>
@@ -49,7 +63,9 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1">{links}</ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Button</a>
+          <a className="btn" onClick={handleLogout}>
+            LogOut
+          </a>
         </div>
       </div>
     </div>

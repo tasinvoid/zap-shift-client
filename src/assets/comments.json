@@ -1,0 +1,72 @@
+[
+  {
+    "cardTitle": "Order Delivered!",
+    "badgeSecondary": "NEW",
+    "paragraphContent": "Your delicious meal has arrived safely. Enjoy your food!",
+    "badgeOutline1": "Food",
+    "badgeOutline2": "Delivered"
+  },
+  {
+    "cardTitle": "Rider Assigned",
+    "badgeSecondary": "UPDATE",
+    "paragraphContent": "John is on his way to pick up your order. You can track his progress on the map.",
+    "badgeOutline1": "Tracking",
+    "badgeOutline2": "Live"
+  },
+  {
+    "cardTitle": "Special Offer",
+    "badgeSecondary": "HOT",
+    "paragraphContent": "Get 20% off your next order from selected restaurants. Limited time only!",
+    "badgeOutline1": "Discount",
+    "badgeOutline2": "Promo"
+  },
+  {
+    "cardTitle": "Order Confirmed",
+    "badgeSecondary": "SUCCESS",
+    "paragraphContent": "Thank you for your order! It's currently being prepared by the restaurant.",
+    "badgeOutline1": "Processing",
+    "badgeOutline2": "Confirmed"
+  },
+  {
+    "cardTitle": "Rate Your Experience",
+    "badgeSecondary": "FEEDBACK",
+    "paragraphContent": "Help us improve! Please rate your recent delivery experience.",
+    "badgeOutline1": "Review",
+    "badgeOutline2": "Feedback"
+  },
+  {
+    "cardTitle": "New Restaurant Added!",
+    "badgeSecondary": "EXPLORE",
+    "paragraphContent": "Discover 'Spice Route', our newest partner, offering authentic Indian cuisine.",
+    "badgeOutline1": "Cuisine",
+    "badgeOutline2": "New"
+  },
+  {
+    "cardTitle": "Scheduled Delivery",
+    "badgeSecondary": "REMINDER",
+    "paragraphContent": "Your delivery for [Time] from [Restaurant Name] is coming up soon.",
+    "badgeOutline1": "Scheduled",
+    "badgeOutline2": "Upcoming"
+  },
+  {
+    "cardTitle": "Payment Failed",
+    "badgeSecondary": "URGENT",
+    "paragraphContent": "Your payment for order #12345 could not be processed. Please update your details.",
+    "badgeOutline1": "Payment",
+    "badgeOutline2": "Failed"
+  },
+  {
+    "cardTitle": "Refer a Friend",
+    "badgeSecondary": "BONUS",
+    "paragraphContent": "Invite your friends to our app and both get a discount on your next orders!",
+    "badgeOutline1": "Referral",
+    "badgeOutline2": "Rewards"
+  },
+  {
+    "cardTitle": "Support Contacted",
+    "badgeSecondary": "HELP",
+    "paragraphContent": "Our support team has received your query and will get back to you shortly.",
+    "badgeOutline1": "Support",
+    "badgeOutline2": "Assistance"
+  }
+]
